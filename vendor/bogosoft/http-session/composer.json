@@ -1,0 +1,13 @@
+{
+  "name": "bogosoft/http-session",
+  "description": "A library of HTTP session contracts and default implementations.",
+  "autoload": {
+    "psr-4": {
+      "Bogosoft\\Http\\Session\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  }
+}

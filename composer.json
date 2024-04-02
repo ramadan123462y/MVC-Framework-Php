@@ -1,0 +1,21 @@
+{
+    "autoload": {
+
+        "files": [
+            "app/helpers.php"
+        ],
+        
+        "psr-4": {
+            "APP\\":"app"
+            
+            
+        }
+    },
+    "require": {
+        "dcblogdev/pdo-wrapper": "^2.0",
+        "miladrahimi/phpcrypt": "5.*",
+        "rakit/validation": "^1.4",
+        "bogosoft/http-mvc": "^5.2",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
